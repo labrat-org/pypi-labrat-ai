@@ -1,5 +1,5 @@
 # .github/workflows/ci-cd.yml
-name: CI/CD Workflow
+name: Publish from Branch to PyPI
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/project/<your-pypi-project-name>/  # Replace with your PyPI project URL
+      url: https://pypi.org/project/labrat-ai/
     permissions:
       id-token: write  # Mandatory for trusted publishing
       contents: read  # Allows access to repository content (required by actions)

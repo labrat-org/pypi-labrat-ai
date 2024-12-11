@@ -8,7 +8,7 @@ version = "0.0.1"
 authors = [
   { name="Labrat Technologies", email="oss@golabrat.ai" },
 ]
-description = "A small example package"
+description = "Labrat AI is a Python library for building AI agents."
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
